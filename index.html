@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Lira - Mi Primera Página</title>
+    <style>
+        /* Aquí va el CSS (el diseño) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: #ffffff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+        a.btn {
+            display: inline-block;
+            background: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        a.btn:hover {
+            background: #2980b9;
+        }
+        /* Para que se vea bien en celular */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Santiago Lira Estrada</h1>
+        <p>Estudiante de Ingeniería en Sistemas Computacionales | ULSA</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy estudiante de primer semestre de Ingeniería en Sistemas Computacionales en la Universidad La Salle Chihuahua. Me apasiona la tecnología y la organización de equipos; de hecho, actualmente soy el manager del equipo de fútbol Regal F.C. Me gusta aprender cosas nuevas y aplicar la lógica para resolver problemas.</p>
+        </section>
+
+        <section>
+            <h2>Mis intereses</h2>
+            <ul>
+                <li>Programación y desarrollo de software</li>
+                <li>Administración y gestión deportiva (Regal F.C.)</li>
+                <li>Innovación tecnológica</li>
+                <li>Fútbol</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Lo que quiero aprender</h2>
+            <ul>
+                <li>Desarrollo web completo (HTML, CSS, JavaScript)</li>
+                <li>Estructuras de datos y algoritmos</li>
+                <li>Inteligencia Artificial y su integración en sistemas</li>
+                <li>Gestión de bases de datos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mi Perfil</h2>
+            <p>Puedes ver mi trabajo y código en GitHub:</p>
+            <a href="https://github.com/Santile7" class="btn" target="_blank">Visitar mi GitHub</a>
+        </section>
+    </div>
+</body>
+</html>
